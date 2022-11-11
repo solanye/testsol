@@ -13,6 +13,11 @@ describe('empty spec', () => {
       .clear()
       .should('have.value', '')
   })
+  //espero que el los input tipo número no tengan letras
+  it('shoudnt be able to write letters on number inputs', () => {
+    cy.get('input[type="number"]').type("e") 
+    .should('have.value', '')
+  })  
   //espero que al enviar el formulario salga un error al haber campos vacíos
   it('.submit() - submit a form', () => {
     cy.get('input').invoke('val','')
