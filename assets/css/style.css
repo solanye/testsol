@@ -1,0 +1,151 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/* DATATABLE EDIT STYLE */
+.table.table-xl.table-in th{
+    padding: 0.75rem 2px!important;
+}
+.dataTables_scrollHead{
+    overflow: unset!important;
+}
+.dataTables_scrollBody{
+    overflow: unset!important;
+}
+.table.table-xl th, .table.table-xl td {
+    padding: 0.8rem 0.8rem;
+}
+select.form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*
+
+NAVBAR
+---------
+
+
+/*NAV BAR RED COLOR */
+.bg-sm {
+	background-image: linear-gradient(to right,#ff1837 0,#ff3d57 100%);
+    background-repeat: repeat-x;
+}
+.bg-sm .navbar-brand {
+	color: #fff!important;
+}
+.bg-sm h3{
+	color: #fff!important;
+}
+.bg-sm .navbar-nav .nav-link {
+    color: #fff!important;
+}
+
+/* END NAVBAR */
+
+/*      CARDS          */
+.card .card-title .card-news-title{
+    background-color: #00000082;
+    color: #fff;
+    padding: 5px;
+}
+/*
+
+MENU
+---------
+
+
+/*MENU ACTIVE LEFT SHADOW*/
+.vertical-compact-menu .main-menu .navigation > li.active > a {
+    font-weight: 400;
+    background: transparent;
+    border-right: 4px solid #ff4961;
+    margin: 0;
+    border-radius: 0;
+    padding-left: .8rem;
+}
+.main-menu.menu-light .navigation > li.menu-collapsed-open > a {
+    color: #545766;
+    border-right: 4px solid #ff4961;
+}
+.main-menu.menu-light.menu01 .navigation li a, .main-menu.menu-light.menu02 .navigation li a {
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.main-menu.menu-light.menu01 .navigation li.active a {
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.main-menu.menu-light.menu01 .navigation > li.hover > a, .main-menu.menu-light.menu01 .navigation > li:hover > a, .main-menu.menu-light.menu01 .navigation > li.active > a {
+    color: #e4dbdb;
+}
+
+/*AUX MENU COLOR*/
+/******************
+ *   Line Charts   *
+ ******************/
+.vertical-compact-menu .main-menu.menu01 .navigation > li > a {
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%);
+    background-repeat: repeat-x;
+}
+.vertical-compact-menu .main-menu.menu01 .navigation > li.active > a {
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%);
+    background-repeat: repeat-x;
+}
+.vertical-compact-menu.menu-open .main-menu.menu01{ 
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%);
+    background-repeat: repeat-x;
+}
+/*small version*/
+.vertical-overlay-menu .main-menu.menu01 .navigation > li > a {
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%);
+    background-repeat: repeat-x;
+}
+.vertical-overlay-menu.menu-open .main-menu.menu01{ 
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%);
+    background-repeat: repeat-x;
+}
+.main-menu.menu-light.menu01 .navigation > li.hover > a, .main-menu.menu-light.menu01 .navigation > li:hover > a, .main-menu.menu-light.menu01 .navigation > li.active > a {
+    color: #e4dbdb;
+    background-image: linear-gradient(to right,#1976d2 0,#0c84d1  100%)!important;
+    background-repeat: repeat-x!important;
+}
+
+/*ADMIN MENU COLOR*/
+.vertical-compact-menu .main-menu.menu02 .navigation > li > a {
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%);
+    background-repeat: repeat-x;
+}
+.vertical-compact-menu .main-menu.menu02 .navigation > li.active > a {
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%);
+    background-repeat: repeat-x;
+}
+.vertical-compact-menu.menu-open .main-menu.menu02{ 
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%);
+    background-repeat: repeat-x;
+}
+/*SMALL VERSION*/
+.vertical-overlay-menu .main-menu.menu02 .navigation > li > a {
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%);
+    background-repeat: repeat-x;
+}
+.vertical-overlay-menu.menu-open .main-menu.menu02{ 
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%);
+    background-repeat: repeat-x;
+}
+.main-menu.menu-light.menu02 .navigation > li.hover > a, .main-menu.menu-light.menu02 .navigation > li:hover > a, .main-menu.menu-light.menu02 .navigation > li.active > a {
+    color: #e4dbdb;
+    background-image: linear-gradient(to right,#00796b 0,#20a576  100%)!important;
+    background-repeat: repeat-x!important;
+}
+//* END MENU 
+
+
+
